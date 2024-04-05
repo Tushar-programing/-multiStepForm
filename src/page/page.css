@@ -1,0 +1,112 @@
+.out {
+    /* border: 2.5px solid rgb(181, 181, 181); */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    height: 5px;
+}
+
+.oute {
+    /* border: 2.5px solid rgb(181, 181, 181); */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    height: 5px;
+}
+
+.outee {
+    /* border: 2.5px solid rgb(181, 181, 181); */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    height: 5px;
+}
+
+.outeee {
+    /* border: 2.5px solid rgb(181, 181, 181); */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    height: 5px;
+}
+
+.outeeee {
+    /* border: 2.5px solid rgb(181, 181, 181); */
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    height: 5px;
+}
+
+
+.outli {
+    /* border: 2.5px solid rgb(2, 116, 10); */
+    background-color: rgb(32, 123, 38);
+    width: 20%;
+}
+
+.outlie {
+    /* border: 2.5px solid rgb(2, 116, 10); */
+    background-color: rgb(32, 123, 38);
+    width: 40%;
+}
+
+.outliee {
+    /* border: 2.5px solid rgb(2, 116, 10); */
+    background-color: rgb(32, 123, 38);
+    width: 60%;
+}
+
+.outlieee {
+    /* border: 2.5px solid rgb(2, 116, 10); */
+    background-color: rgb(32, 123, 38);
+    width: 80%;
+}
+
+.outlieeee {
+    /* border: 2.5px solid rgb(2, 116, 10); */
+    background-color: rgb(32, 123, 38);
+    width: 100%;
+}
+
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border: 10px solid rgba(127, 132, 78, 0.1);
+    border-radius: 50%;
+    border-top-color: rgb(250, 204, 18);
+    animation: pos  1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    transform: rotate(45deg);
+  }
+  
+  @keyframes spin {
+    10% {
+      /* transform: rotate(0deg); */
+      border-right-color: rgb(250, 204, 18);
+    }
+    50% {
+      border-bottom-color: rgb(250, 204, 18);
+      border-right-color: rgb(250, 204, 18);
+    }
+    100% {
+      border-bottom-color: rgb(250, 204, 18);
+      border-right-color: rgb(250, 204, 18);
+      /* transform: rotate(360deg); */
+      border-left-color: rgb(250, 204, 18);
+      
+    }
+  }
+
+  @keyframes pos {
+    10% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
